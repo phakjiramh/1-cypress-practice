@@ -10,5 +10,6 @@ describe("Exercise.Doppio", () => {
       cy.get("select").select("doppio");
       cy.get("#op1").check();
       cy.get("#use-me").click();
+      //pass
    });
 });
